@@ -1,0 +1,11 @@
+# ====================================================
+# CEPHEUS CRAWLER CONFIGURATION (MAX OPTIMIZATION)
+# ====================================================
+
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+
+# Point search engines directly to our structural map
+Sitemap: https://cepheus.in/sitemap.xml
