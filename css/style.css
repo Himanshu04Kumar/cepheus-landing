@@ -852,3 +852,26 @@ footer {
     text-align: center !important;
   }
 }
+
+/* ====================================================
+  SUBDOMAIN CROSS-PORTAL ROUTER ADDITIONS
+  ====================================================
+*/
+.nav-links .nav-link-b2b {
+  color: var(--accent) !important;
+  font-weight: 500;
+  border-bottom: 0.5px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links .nav-link-b2b:hover {
+  border-color: var(--accent);
+  color: #b03a07 !important;
+}
+
+@media (max-width: 860px) {
+  /* Accelerated navigation collapse width to protect structural alignment */
+  .nav-links {
+    display: none !important;
+  }
+}
